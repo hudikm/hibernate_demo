@@ -95,7 +95,6 @@ public class Hibernate_demo {
          *    ██╔══██║██║▄▄ ██║██║
          *    ██║  ██║╚██████╔╝███████╗
          *    ╚═╝  ╚═╝ ╚══▀▀═╝ ╚══════╝
-         *
          */
         try {
             String asciiArt1 = FigletFont.convertOneLine("HQL Query");
@@ -268,8 +267,6 @@ public class Hibernate_demo {
             System.out.format("%25s%25s%10s\n", "First Name", "Last Name", "Age");
             resultList.forEach(author -> System.out.format("%25s%25s%10s\n", author.getFirstName(), author.getLastName(), author.getAge()));
         }
-
-
         session2.close();
 
 
