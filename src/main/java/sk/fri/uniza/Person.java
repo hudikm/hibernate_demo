@@ -13,6 +13,10 @@ public class Person {
     private Long id;
     private String firstName;
     private String lastName;
+
+    @Embedded
+    private Adress adress;
+
     private int age;
     @OneToMany(mappedBy = "owner", cascade = {CascadeType.ALL}, orphanRemoval = true)
     private List<PhoneNumber> phones = new ArrayList<>();
@@ -22,7 +26,6 @@ public class Person {
         this.lastName = lastName;
         this.phones = phones;
     }
-
     public Person(String firstName, String lastName, int age) {
         this.firstName = firstName;
         this.lastName = lastName;
@@ -30,6 +33,14 @@ public class Person {
     }
 
     public Person() {
+    }
+
+    public Adress getAdress() {
+        return adress;
+    }
+
+    public void setAdress(Adress adress) {
+        this.adress = adress;
     }
 
     public int getAge() {
