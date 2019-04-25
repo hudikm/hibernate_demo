@@ -26,7 +26,9 @@ Aplikácia demoštruje základné možnosti použitia Hibernate frameworku na vy
 - [Dedičnosť](https://www.baeldung.com/hibernate-inheritance)
 - [Agregačné funkcie](https://www.baeldung.com/hibernate-aggregate-functions)
 - [Criteria Query](https://www.baeldung.com/hibernate-criteria-queries)
-- [Generátor metadát](
+- [Generátor metadát](https://docs.jboss.org/hibernate/orm/5.3/topical/html_single/metamodelgen/MetamodelGenerator.html)
+
+
 
 
 
