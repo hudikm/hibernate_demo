@@ -19,7 +19,7 @@ Aplikácia demoštruje základné možnosti použitia Hibernate frameworku na vy
 
 ![](er_diagram.svg)
 
-###Odkazy
+### Odkazy
 - [Hibernate Docs](http://docs.jboss.org/hibernate/orm/current/userguide/html_single/Hibernate_User_Guide.html#domain-model)
 - [jpql tutorial](https://thoughts-on-java.org/jpql/)
 - [jpa cheatsheet](https://gist.github.com/jahe/18a4efe614fc73cf184d8ceef8cdc996)
