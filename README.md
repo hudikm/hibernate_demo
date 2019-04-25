@@ -1,6 +1,6 @@
 # Hibernate demo
 
-Ukážkový príklad ako použiť Hibernate ORM na prácu s databázov.
+Ukážkový príklad ako použiť Hibernate ORM na prácu s databázou.
 
 ## Požiadavky na spojenie s DB
 -  URL: `localhost:3306`
