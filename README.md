@@ -17,7 +17,7 @@ Aplikácia demoštruje základné možnosti použitia Hibernate frameworku na vy
 
 ### ER model (entitne vzťahový model) 
 
-![](er_diagram.svg)
+![](er_diagram.png)
 
 ### Odkazy
 - [Hibernate Docs](http://docs.jboss.org/hibernate/orm/current/userguide/html_single/Hibernate_User_Guide.html#domain-model)
