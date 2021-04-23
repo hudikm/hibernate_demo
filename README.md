@@ -19,6 +19,12 @@ Aplikácia demoštruje základné možnosti použitia Hibernate frameworku na vy
 
 ![](er_diagram.png)
 
+### Úloha 
+
+Doplnte nový vzťah One-to-Many medzi publikáciou a vydavateľstvom(Publishers). 
+
+![](er_diagram_uloha.png)
+
 ### Odkazy
 - [Hibernate Docs](http://docs.jboss.org/hibernate/orm/current/userguide/html_single/Hibernate_User_Guide.html#domain-model)
 - [jpql tutorial](https://thoughts-on-java.org/jpql/)
